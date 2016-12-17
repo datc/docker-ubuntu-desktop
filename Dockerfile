@@ -1,4 +1,5 @@
-FROM ubuntu:16.04
+#FROM ubuntu:16.04
+FROM sevnew/ubuntu-xfce-vnc-desktop-chrome:latest
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV USER root
